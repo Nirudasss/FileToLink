@@ -7,7 +7,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '10660564'))
 API_HASH = environ.get('API_HASH', '527e6297989f4e7cda5091f5bf41d0e4')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7239597095:AAGFPd8nw_cjGWya_0OiJZkSiJis03CpYdA")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -20,7 +20,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://rajaji-699b363f6ec4.herokuapp.com/")
+URL = environ.get("URL", "")
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002416466147'))
