@@ -8,7 +8,7 @@ class script(object):
     
 ✏️ I Am A Advance File Stream Bot With Multiple Player Support And Url Shortner. Best Ui Performance.
    🎵 NOTE - I Don't Have Channel Support
-      For Channel Support Contact @PRESINDENTIND7
+      For Channel Support Contact @PRESIDENTIND7
 
 Now Send Me A Media To See Magic ✨</b>"""
 
